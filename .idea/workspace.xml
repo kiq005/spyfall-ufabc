@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f205ba90-7ee8-4e7f-8e5e-1e7fd9ce0178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spyfall-ufabc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkCleanup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkCli.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkCli.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkEnv.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkEnv.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkServer-initialize.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkServer.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkServer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkTxnLogToolkit.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bin/zkTxnLogToolkit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spyfall/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spyfall/connection/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spyfall/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spyfall/manager/IManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/spyfall/manager/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conf/zoo.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/audience-annotations-0.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/commons-cli-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-http-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-io-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-security-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-server-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-servlet-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jetty-util-9.4.17.v20190418.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jline-2.11.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/jline-2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/json-simple-1.1.1.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/log4j-1.2.17.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/netty-all-4.1.29.Final.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/netty-all-4.1.29.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/slf4j-1.7.25.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/zookeeper-3.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/zookeeper-jute-3.5.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spyfall/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/spyfall/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#69#70#0" expanded="true" />
+                <element signature="e#87#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spyfall/connection/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spyfall/manager/IManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/spyfall/manager/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/spyfall/IManager.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/Manager.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/Connection.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/connection/Connection.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/manager/IManager.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/spyfall/manager/Manager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spyfall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spyfall" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spyfall" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spyfall-ufabc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spyfall" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spyfall-ufabc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spyfall.Main" />
+      <module name="spyfall-ufabc" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f205ba90-7ee8-4e7f-8e5e-1e7fd9ce0178" name="Default Changelist" comment="" />
+      <created>1566660916645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566660916645</updated>
+      <workItem from="1566660922979" duration="5801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5801000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="960" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24945295" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.3297414" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/spyfall/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spyfall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spyfall-ufabc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/zookeeper-3.5.5.jar!/org/apache/zookeeper/Watcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spyfall/connection/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spyfall/manager/IManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spyfall/manager/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spyfall/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/spyfall/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spyfall-ufabc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
