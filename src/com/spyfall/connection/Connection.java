@@ -23,7 +23,7 @@ public class Connection {
                 connectionLatch.countDown();
             }
             else {
-                System.out.println("Event: " + WatchedEvent.toString());
+                throw new RuntimeException("Error connecting to zookeeper");
             }
         });
 

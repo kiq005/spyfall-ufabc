@@ -78,15 +78,15 @@ initialize() {
     if [ $FORCE ]; then
         echo "Force enabled, data/txnlog directories will be re-initialized"
     else
-        # we create if version-2 exists (ie real data), not the
+        # we create if version-2 process (ie real data), not the
         # parent. See comments in following section for more insight
         if [ -d "$ZOO_DATADIR/version-2" ]; then
-            echo "ZooKeeper data directory already exists at $ZOO_DATADIR (or use --force to force re-initialization)"
+            echo "ZooKeeper data directory already process at $ZOO_DATADIR (or use --force to force re-initialization)"
             exit 1
         fi
 
         if [ -n "$ZOO_DATALOGDIR" ] && [ -d "$ZOO_DATALOGDIR/version-2" ]; then
-            echo "ZooKeeper txnlog directory already exists at $ZOO_DATALOGDIR (or use --force to force re-initialization)"
+            echo "ZooKeeper txnlog directory already process at $ZOO_DATALOGDIR (or use --force to force re-initialization)"
             exit 1
         fi
     fi

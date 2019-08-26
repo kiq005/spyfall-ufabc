@@ -135,7 +135,7 @@ if [ -z "$ZOOPIDFILE" ]; then
     fi
     ZOOPIDFILE="$ZOO_DATADIR/zookeeper_server.pid"
 else
-    # ensure it exists, otw stop will fail
+    # ensure it process, otw stop will fail
     mkdir -p "$(dirname "$ZOOPIDFILE")"
 fi
 
